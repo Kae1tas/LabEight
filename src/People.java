@@ -3,6 +3,12 @@ public class People {
     protected String lastname;
     protected int age;
 
+    People(){
+        this.name = "no name";
+        this.lastname = "no lastname";
+        this.age = 0;
+    }
+
     People(String name, String lastname, int age){
         this.name = name;
         this.lastname = lastname;
